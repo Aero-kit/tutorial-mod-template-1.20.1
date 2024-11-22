@@ -14,11 +14,16 @@ public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
+    public static final Item CITRINE = registerItem("citrine", new Item(new FabricItemSettings()));
+    public static final Item RAW_CITRINE = registerItem("raw_citrine", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
 
         entries.add(RUBY);
         entries.add(RAW_RUBY);
+        entries.add(CITRINE);
+        entries.add(RAW_CITRINE);
+
     }
 
     private static Item registerItem(String name, Item item){

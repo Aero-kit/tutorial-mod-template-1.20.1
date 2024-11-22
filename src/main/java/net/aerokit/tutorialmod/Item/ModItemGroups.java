@@ -18,6 +18,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModItems.CITRINE);
+                        entries.add(ModItems.RAW_CITRINE);
 
                         entries.add(Items.DIAMOND);
                     }).build());

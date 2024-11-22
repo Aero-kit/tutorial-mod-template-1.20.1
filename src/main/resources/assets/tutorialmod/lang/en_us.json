@@ -1,5 +1,8 @@
 {
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
-  "itemgroup.ruby": "Ruby Tutorial Group"
+  "item.tutorialmod.citrine": "Citrine",
+  "item.tutorialmod.raw_citrine": "Raw Citrine",
+
+  "itemgroup.ruby": "Gem Tutorial Group"
 }
