@@ -1,5 +1,7 @@
 package net.aerokit.tutorialmod;
 
+import net.aerokit.tutorialmod.Item.ModItemGroups;
+import net.aerokit.tutorialmod.Item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,7 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
