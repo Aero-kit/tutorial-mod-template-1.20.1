@@ -21,6 +21,7 @@ public class ModItems {
 
         entries.add(RUBY);
         entries.add(RAW_RUBY);
+
         entries.add(CITRINE);
         entries.add(RAW_CITRINE);
 

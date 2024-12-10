@@ -1,8 +1,16 @@
 {
+
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
+
   "item.tutorialmod.citrine": "Citrine",
   "item.tutorialmod.raw_citrine": "Raw Citrine",
+
+  "block.tutorialmod.ruby_block": "Block of Ruby",
+  "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
+
+  "block.tutorialmod.citrine_block": "Block of Citrine",
+  "block.tutorialmod.raw_citrine_block": "Block of Raw Citrine",
 
   "itemgroup.ruby": "Gem Tutorial Group"
 }
