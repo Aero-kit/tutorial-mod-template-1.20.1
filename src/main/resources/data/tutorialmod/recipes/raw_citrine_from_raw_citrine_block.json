@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "catagory": "mics",
+  "ingredients": [
+    {
+      "item": "tutorialmod:raw_citrine_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:raw_citrine",
+    "count": 9
+  }
+}
