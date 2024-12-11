@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:ruby_block",
+    "tutorialmod:raw_ruby_block",
+    "tutorialmod:citrine_block",
+    "tutorialmod:raw_citrine_block",
+    "tutorialmod:ruby_ore",
+    "tutorialmod:citrine_ore",
+    "tutorialmod:nether_ruby_ore",
+    "tutorialmod:nether_citrine_ore"
+  ]
+}

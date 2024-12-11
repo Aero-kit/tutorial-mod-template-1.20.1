@@ -29,6 +29,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CITRINE_BLOCK);
                         entries.add(ModBlocks.RAW_CITRINE_BLOCK);
 
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        entries.add(ModBlocks.NETHER_RUBY_ORE);
+                        entries.add(ModBlocks.END_STONE_RUBY_ORE);
+
+                        entries.add(ModBlocks.CITRINE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_CITRINE_ORE);
+                        entries.add(ModBlocks.NETHER_CITRINE_ORE);
+                        entries.add(ModBlocks.END_STONE_CITRINE_ORE);
+
                         entries.add(Items.DIAMOND);
                     }).build());
 
