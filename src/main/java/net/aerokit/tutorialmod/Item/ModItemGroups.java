@@ -23,6 +23,8 @@ public class ModItemGroups {
                         entries.add(ModItems.CITRINE);
                         entries.add(ModItems.RAW_CITRINE);
 
+                        entries.add((ModItems.METAL_DETECTOR));
+
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
