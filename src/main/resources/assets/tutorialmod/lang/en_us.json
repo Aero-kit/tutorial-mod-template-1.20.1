@@ -7,6 +7,7 @@
   "item.tutorialmod.raw_citrine": "Raw Citrine",
 
   "item.tutorialmod.metal_detector": "Metal Detector",
+  "item.tutorialmod.sound_block": "Sound Block",
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
@@ -23,6 +24,11 @@
   "block.tutorialmod.deepslate_citrine_ore": "Deepslate Citrine Ore",
   "block.tutorialmod.nether_citrine_ore": "Nether Citrine Ore",
   "block.tutorialmod.end_stone_citrine_ore": "End Stone Citrine Ore",
+
+  "item.tutorialmod.tomato": "Tomato",
+  "item.tutorialmod.coal_briquette": "Coal Briquette",
+
+  "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground",
 
   "itemgroup.ruby": "Gem Tutorial Group"
 }

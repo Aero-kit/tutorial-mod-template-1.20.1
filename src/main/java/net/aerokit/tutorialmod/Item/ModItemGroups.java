@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_CITRINE);
 
                         entries.add((ModItems.METAL_DETECTOR));
+                        entries.add((ModBlocks.SOUND_BLOCK));
 
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
@@ -41,7 +42,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NETHER_CITRINE_ORE);
                         entries.add(ModBlocks.END_STONE_CITRINE_ORE);
 
-                        entries.add(Items.DIAMOND);
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.COAL_BRIQUETTE);
                     }).build());
 
     public static void registerItemGroups() {
