@@ -40,5 +40,7 @@
   "block.tutorialmod.ruby_door": "Ruby Door",
   "block.tutorialmod.ruby_trapdoor": "Ruby Trapdoor",
 
+  "item.tutorialmod.ruby_staff": "Ruby Staff",
+
   "itemgroup.ruby": "Gem Tutorial Group"
 }
