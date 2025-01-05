@@ -5,6 +5,7 @@ import net.aerokit.tutorialmod.Item.ModItems;
 import net.aerokit.tutorialmod.block.ModBlocks;
 import net.aerokit.tutorialmod.util.ModCustomTrades;
 import net.aerokit.tutorialmod.util.ModLootTableModifiers;
+import net.aerokit.tutorialmod.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -24,6 +25,8 @@ public class TutorialMod implements ModInitializer {
 
 		ModLootTableModifiers.modifyLootTables();
 		ModCustomTrades.registerCustomTrades();
+
+		ModVillagers.registerVillagers();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
