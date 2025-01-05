@@ -1,7 +1,9 @@
 package net.aerokit.tutorialmod.block;
 
 import net.aerokit.tutorialmod.TutorialMod;
+import net.aerokit.tutorialmod.block.custom.CornCropBlock;
 import net.aerokit.tutorialmod.block.custom.SoundBlock;
+import net.aerokit.tutorialmod.block.custom.TomatoCropBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -72,6 +74,14 @@ public class ModBlocks {
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR), BlockSetType.IRON));
     public static final  Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).nonOpaque(), BlockSetType.IRON));
+
+
+    public static final  Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "tomato_crop"),
+            new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+    public static final  Block CORN_CROP = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "corn_crop"),
+            new CornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
