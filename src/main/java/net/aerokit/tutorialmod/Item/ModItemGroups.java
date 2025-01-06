@@ -60,9 +60,10 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_LEGGINGS);
                         entries.add(ModItems.RUBY_BOOTS);
 
-                        entries.add((ModItems.METAL_DETECTOR));
-                        entries.add((ModItems.RUBY_STAFF));
-                        entries.add((ModBlocks.SOUND_BLOCK));
+                        entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.RUBY_STAFF);
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+                        entries.add(ModBlocks.SOUND_BLOCK);
 
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.TOMATO_SEEDS);
