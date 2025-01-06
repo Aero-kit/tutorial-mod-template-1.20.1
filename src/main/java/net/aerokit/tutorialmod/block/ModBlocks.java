@@ -4,6 +4,7 @@ import net.aerokit.tutorialmod.TutorialMod;
 import net.aerokit.tutorialmod.block.custom.CornCropBlock;
 import net.aerokit.tutorialmod.block.custom.SoundBlock;
 import net.aerokit.tutorialmod.block.custom.TomatoCropBlock;
+import net.aerokit.tutorialmod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -51,7 +52,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(3f), UniformIntProvider.create(2, 5)));
 
     public static final  Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).sounds(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     public static final  Block RUBY_STAIRS = registerBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
