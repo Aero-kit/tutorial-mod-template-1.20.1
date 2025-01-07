@@ -72,6 +72,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DAHLIA);
                         entries.add(ModItems.COAL_BRIQUETTE);
 
+                        entries.add(ModItems.PORCUPINE_SPAWN_EGG);
+
 
                     }).build());
 
