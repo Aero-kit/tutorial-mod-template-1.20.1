@@ -2,6 +2,7 @@ package net.aerokit.tutorialmod.block;
 
 import net.aerokit.tutorialmod.TutorialMod;
 import net.aerokit.tutorialmod.block.custom.CornCropBlock;
+import net.aerokit.tutorialmod.block.custom.GemPolishingStationBlock;
 import net.aerokit.tutorialmod.block.custom.SoundBlock;
 import net.aerokit.tutorialmod.block.custom.TomatoCropBlock;
 import net.aerokit.tutorialmod.sound.ModSounds;
@@ -87,6 +88,9 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 10, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final  Block POTTED_DAHLIA = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "potted_dahlia"),
             new FlowerPotBlock(DAHLIA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final  Block GEM_POLISHIN_STATION = registerBlock("gem_polishing_station",
+            new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque()));
 
 
     private static Block registerBlock(String name, Block block){

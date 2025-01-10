@@ -32,6 +32,8 @@
   "item.tutorialmod.coal_briquette": "Coal Briquette",
   "item.tutorialmod.porcupine_spawn_egg": "Porcupine Spawn Egg",
 
+  "block.tutorialmod.gem_polishing_station": "Gem Polishing Station",
+
   "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground",
 
   "block.tutorialmod.ruby_stairs": "Ruby Stairs",

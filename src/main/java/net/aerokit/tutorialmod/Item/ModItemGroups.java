@@ -39,6 +39,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NETHER_CITRINE_ORE);
                         entries.add(ModBlocks.END_STONE_CITRINE_ORE);
 
+                        entries.add(ModBlocks.GEM_POLISHIN_STATION);
+
                         entries.add(ModBlocks.RUBY_STAIRS);
                         entries.add(ModBlocks.RUBY_SLAB);
                         entries.add(ModBlocks.RUBY_FENCE);
