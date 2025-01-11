@@ -5,7 +5,6 @@ import net.aerokit.tutorialmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -39,7 +38,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NETHER_CITRINE_ORE);
                         entries.add(ModBlocks.END_STONE_CITRINE_ORE);
 
-                        entries.add(ModBlocks.GEM_POLISHIN_STATION);
+                        entries.add(ModBlocks.GEM_POLISHING_STATION);
 
                         entries.add(ModBlocks.RUBY_STAIRS);
                         entries.add(ModBlocks.RUBY_SLAB);

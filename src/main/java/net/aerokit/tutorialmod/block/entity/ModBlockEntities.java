@@ -12,7 +12,7 @@ public class ModBlockEntities {
     public static final BlockEntityType<GemPolishingStationBlockEntity> GEM_POLISHING_STATION_BLOCK_ENTITY =
             Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(TutorialMod.MOD_ID, "gem_polishing_be"),
                     FabricBlockEntityTypeBuilder.create(GemPolishingStationBlockEntity::new,
-                            ModBlocks.GEM_POLISHIN_STATION).build());
+                            ModBlocks.GEM_POLISHING_STATION).build());
 
     public static void registerBlockEntities() {
         TutorialMod.LOGGER.info("Registering Block Entities for " + TutorialMod.MOD_ID);

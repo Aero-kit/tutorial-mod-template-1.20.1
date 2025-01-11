@@ -89,7 +89,7 @@ public class ModBlocks {
     public static final  Block POTTED_DAHLIA = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "potted_dahlia"),
             new FlowerPotBlock(DAHLIA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final  Block GEM_POLISHIN_STATION = registerBlock("gem_polishing_station",
+    public static final  Block GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
             new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque()));
 
 
