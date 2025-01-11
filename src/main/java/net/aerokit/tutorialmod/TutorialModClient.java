@@ -1,6 +1,8 @@
 package net.aerokit.tutorialmod;
 
 import net.aerokit.tutorialmod.block.ModBlocks;
+import net.aerokit.tutorialmod.block.entity.ModBlockEntities;
+import net.aerokit.tutorialmod.block.entity.renderer.GemPolishingBlockEntityRenderer;
 import net.aerokit.tutorialmod.entity.ModEntities;
 import net.aerokit.tutorialmod.entity.client.ModModelLayers;
 import net.aerokit.tutorialmod.entity.client.PorcupineModel;
@@ -13,6 +15,7 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 
 public class TutorialModClient implements ClientModInitializer {
     @Override
@@ -30,6 +33,8 @@ public class TutorialModClient implements ClientModInitializer {
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.PORCUPINE, PorcupineModel::getTexturedModelData);
 
         HandledScreens.register(ModScreenHandlers.GEM_POLISHING_SCREEN_HANDLER, GemPolishingScreen::new);
+
+        BlockEntityRendererFactories.register(ModBlockEntities.GEM_POLISHING_STATION_BLOCK_ENTITY, GemPolishingBlockEntityRenderer::new);
 
     }
 }
